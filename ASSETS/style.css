@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-input-placeholder{
+    text-align: center;
+    opacity: 0.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    align-content: center;
+    background: #DA5171;  
+    /* background: -webkit-linear-gradient(to right, #0575E6, #00F260); 
+    background: linear-gradient(to right, #0575E6, #00F260);  */
+    /* background:url(https://static.videezy.com/system/resources/previews/000/048/962/original/technology-network95.1.mp4); */
+    background:url(https://img.freepik.com/free-vector/abstract-geometric-shape-connection-with-3d-cubes-background_42705-105.jpg?w=2000);
+}
+
+.logo {
+    float: right;
+    text-align: right;
+}
+#ieee-logo{
+    height:10rem;
+    width:11rem;
+    margin:20px 20px;
+}
+.recruitment-page{
+    /* align-content:center; */
+    /* background-color:rebeccapurple; */
+    height:100vh;
+    width:auto;
+    height:100vh;
+    line-height: 2rem;
+}
+.recruitments-results{
+    border: 1px solid white;
+}
+.recruitments{
+    /* color:#c38d7c; */
+    color:aliceblue;
+    top:13rem;
+    left:29rem;
+    position: absolute;
+    font-size:4.4rem;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid white; */
+
+}
+#result{
+    font-family: 'Poppins', sans-serif;
+    /* background-color:linear-gradient(45deg,red,yellow,lightblue 50%); */
+    color:#753d5c;
+    top:20rem;
+    left:38rem;
+    align-content:center;
+    /* font-family: 'Merriweather', serif; */
+}
+.recruitments-form{
+    position:absolute;
+    top: 200px;
+    left:29rem;
+    margin-top: 13rem;
+    line-height:2rem;
+}
+#reg{
+    font-size:25px;
+    border-radius: 12px;
+    width: 23rem;
+    height: 66px;
+    text-align:center;
+    color: white;
+    font-weight: 5rem;
+    position: relative;
+    left:5rem;
+    /* background:linear-gradient(orange,lightblue,WHITE); */
+    background: rgb(63,74,83);
+background: linear-gradient(90deg, rgba(63,74,83,1) 0%, rgba(93,90,90,1) 33%, rgba(83,71,71,1) 61%, rgba(52,52,52,1) 90%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%, rgba(7,124,151,1) 100%);
+
+border-color: grey;
+}
+#reg:focus::placeholder{
+    color:transparent;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #C04848 0%, #480048  51%, #C04848  100%)}
+.btn-grad {
+    position:absolute;
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   top: 94px;
+    left: 10rem;
+    width: 200px;
+    height: 54px;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; 
+   color: rgba(37, 37, 37, 0.884);
+   text-decoration: none;
+   border-color:navajowhite;
+   width:210px;
+   font-weight: bold;
+   font-size: 20px;
+ }
